@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+    <title>Assignment 2</title>
+  </head>
+  <body>
+    <section class="header">
+      <nav>
+        <a href="index.html"><img src="wppusher-logo.png" /></a>
+        <div class="nav-links" id="navLinks">
+          <ul>
+            <li><a href="#">Download</a></li>
+            <li><a href="#">Learn more</a></li>
+            <li><a href="#">Pricing</a></li>
+            <li><a href="#">Help</a></li>
+            <a href="#" class="account-button">Account</a>
+          </ul>
+        </div>
+      </nav>
+      <div id="horizontal">
+        <span class="hz"></span>
+      </div>
+    </section>
+
+    <!-- forms -->
+
+    <section id="split">
+      <div id="left">
+        <h2 id="co">Checkout</h2>
+        <div id="horizontal">
+          <span class="hz"></span>
+        </div>
+        <div class="info">
+          <p class="numberCircle">1</p>
+          <h3>Your Basic Information</h3>
+        </div>
+        <div id="test">
+          <div class="o">
+            <label for="name">First Name</label>
+            <input type="text" placeholder="John" required />
+          </div>
+          <div class="o" id="i">
+            <label for="name">Last Name</label>
+            <input type="text" placeholder="Doe" required />
+          </div>
+        </div>
+        <div id="mail">
+          <label for="email">E-mail</label>
+          <input type="text" placeholder="Johndoe@example.com" required />
+        </div>
+        <div id="horizontal">
+          <span class="hz"></span>
+        </div>
+        <div class="info">
+          <p class="numberCircle">2</p>
+          <h3>Your Payment Information</h3>
+        </div>
+        <!-- credit card -->
+        <label for="Card">Credit Card </label>
+        <div id="cc">
+          <div class="y">
+            <input type="text" id="card" placeholder="Card number" required />
+          </div>
+          <div class="y" id="z">
+            <input type="text" placeholder="MM/YY" required />
+          </div>
+          <div class="y" id="x">
+            <input type="text" placeholder="CVC" required />
+          </div>
+        </div>
+        <div id="horizontal">
+          <span class="hz"></span>
+        </div>
+
+        <!--button -->
+
+        <button type="submit">Buy WP Pusher</button>
+
+        <!--additional info below button  -->
+
+        <div id="need">
+          <img src="Mask.png" alt="" />
+          <p>
+            Need any help?
+            <span id="color">Don’t hesitate to contact support!</span>
+          </p>
+        </div>
+        <div id="stripe">
+          <img src="powered_by_stripe.png" alt="Stripe" />
+        </div>
+      </div>
+
+      <!-- right side css -->
+
+      <div id="right">
+        <div id="one">
+          <p id="free">Freelancer</p>
+          <div id="span">
+            <p id="h2">$99</p>
+            <small>/year</small>
+          </div>
+          <p id="auto">Automatically renews after 1 year</p>
+        </div>
+
+        <div>
+          <ul>
+            <li id="line">
+              <img src="checkmark.png" alt="" />
+              <p>Use on $ client sites</p>
+            </li>
+            <li id="line">
+              <img src="checkmark.png" alt="" />
+              <p>Private repositories</p>
+            </li>
+            <li id="line">
+              <img src="checkmark.png" alt="" />
+              <p>Email support</p>
+            </li>
+          </ul>
+        </div>
+
+        <div id="client">
+          <p>Need 20 client sites?</p>
+          <p><a href="#">Switch to the Agency plan.</a></p>
+        </div>
+
+        <div id="horizontal">
+          <span class="hz"></span>
+        </div>
+
+        <div id="ftp">
+          <p>
+            FTP is horrible to deal with. WP Pusher solves that issue, and the
+            customer support is awesome!
+          </p>
+        </div>
+
+        <div id="kirk">
+          <img src="kirk.png" alt="" />
+          <small>Kirk Beard</small>
+        </div>
+      </div>
+    </section>
+
+    <!-- footer -->
+
+    <footer>
+      <p>© 2018 WP Pusher IVS · <span id="tos">Terms of Services</span></p>
+    </footer>
+  </body>
+</html>
